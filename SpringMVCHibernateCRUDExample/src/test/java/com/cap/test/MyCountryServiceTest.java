@@ -84,7 +84,7 @@ public class MyCountryServiceTest {
 	@Test
 	public void testUpdateCountry() {
 		Country country = new Country();
-		country = countryService.getCountry(102);
+		country = countryService.getCountry(2);
 		country.setCountryName("United States");
 		country.setPopulation(5858585l);
 		countryService.updateCountry(country);
